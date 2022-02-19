@@ -1,0 +1,6 @@
+Fișierul Cuvintel.cuv trebuie să conțină lista de cuvinte
+
+1. Lista nu trebuie să fie goală.
+2. Lista nu trebuie să depășească 1000 de elemente.
+3. Toate cuvintele din listă trebuie să aibă 5 caractere.
+4. Toate caracterele din listă trebuie să fie majuscule.

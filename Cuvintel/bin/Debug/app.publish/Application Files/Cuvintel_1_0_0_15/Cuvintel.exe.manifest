@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Cuvintel.exe" version="1.0.0.15" publicKeyToken="4500a9b3c39d54a5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Cuvintel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Cuvintel.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Cuvintel.exe" size="9283072">
+      <assemblyIdentity name="Cuvintel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vvL+21mcXPq07WttvtAFTend9HWYuE4c/mvZmF4t8ps=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Cuvintel.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SYx/jocvnO8M8E99KQzzgEyCoAcgLJtIQSjJTQMED9A=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NICUG\user" issuerKeyHash="10f865d6cd2f9818ae99fbb77f193e5f04bacbd1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bAHjUiTKjKp/vV+DL6GL0Q4MpWCGTS/5BIq1Pr0F4PU=</DigestValue></Reference></SignedInfo><SignatureValue>2oe9GxZNg1v+yC4SS0SQI+LmjXD71Y9U+BDqyrM9jgVgA+GJgI65KTEvcO5+ggWgojqQKG1ZvgB9/A0LKO+PLDZ0pf5d9KKvyTMETXFJS/KRccA4AABTu4SzihsYpVLeR0bgmzSoVxwpxedy+QvNb69Fa7lOZA4xo3Tqdl4l0LY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>/KCQjQJxev/kyZGgw1M2kAZzpU3JPyW3jMTgS0Te9jcVOPDkMIMs1GG42KmXbFtHYFTpmi4+uWye/F3pCJ/minL4HR6eTD6ehcEz3Wi8vlq3ZXwaGULx4+1bMH8ov4MAjhc5ncLp5ycuBIKnaqKpIu2cSjoSWdh2727ATSF7bsU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f5e005bd3eb58a04f92f4d8660a50c0ed18ba12f835fbd7faa8cca2452e3016c" Description="" Url=""><as:assemblyIdentity name="Cuvintel.exe" version="1.0.0.15" publicKeyToken="4500a9b3c39d54a5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NICUG\user</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NT1NvggePnZmrejwza5dQg0BYMIapPweNuN1xXUKzuY=</DigestValue></Reference></SignedInfo><SignatureValue>LL2+N1ZG3L4/BJTA29mddLpsRi+20HDOixjn0pYBbuDpn+F+vmekaf/HcnvUQP0y5ERlVXJYeV11sNo/EAhbVmFbj9mB7111S73G603jjiEkXdE5ZGvwypUs55Pjux/CPPG6BP0jajwoAYZdOVHdtgKoXbw9JcCkdmp+7gctU8U=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>/KCQjQJxev/kyZGgw1M2kAZzpU3JPyW3jMTgS0Te9jcVOPDkMIMs1GG42KmXbFtHYFTpmi4+uWye/F3pCJ/minL4HR6eTD6ehcEz3Wi8vlq3ZXwaGULx4+1bMH8ov4MAjhc5ncLp5ycuBIKnaqKpIu2cSjoSWdh2727ATSF7bsU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQU0E5JEfkAbdCA61OT2mdRTANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQATgBJAEMAVQBHAFwAdQBzAGUAcjAeFw0xODAxMDIwOTAzMjVaFw0xOTAxMDIxNTAzMjVaMB8xHTAbBgNVBAMeFABOAEkAQwBVAEcAXAB1AHMAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD8oJCNAnF6/+TJkaDDUzaQBnOlTck/JbeMxOBLRN72NxU48OQwgyzUYbjYqZdsW0dgVOmaLj65bJ78XekIn+aKcvgdHp5MPp6FwTPdaLy+WrdlfBoZQvHj7Vswfyi/gwCOFzmdwunnJy4Egqdqoqki7ZxKOhJZ2HbvbsBNIXtuxQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJ7ScP4OWAdQAGYpHXPZpntL3HOhdlAbxFBNGtl226eK9uIdD6/QhNd6pI6K+NP/umUggL8ajxhp3iQk8BQh2As5FcjT7hbkJyvhl3RoNQLoUiFgnJvqWRR4AN+dM6xDFDe3klYpZoJ4BAVV0mZm2HzdCpfrd+XvrnLfLYafC4P/</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
